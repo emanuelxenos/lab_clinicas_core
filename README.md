@@ -1,7 +1,7 @@
 
 # Pacote de núcleo principal para app de clinicas, com configurações, estilos, e messagens.
 
-## Pacote criado para App de clinicas, criado durantet Flutter Expirience
+## Pacote criado para App de clinicas durante Flutter Expirience
 
 ## Instalação
 Pra instalar o pacote é muito simples, você tem que deixar a pasta desse pacote no mesmo diretório de seu projeto, seja ele WEB, DESKTOP, ANDROID...</br>
