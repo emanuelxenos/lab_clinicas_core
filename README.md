@@ -1,39 +1,28 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+# Pacote de núcleo principal para app de clinicas, com configurações, estilos, e messagens.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Pacote criado para App de clinicas, criado durantet Flutter Expirience
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Instalação
+Pra instalar o pacote é muito simples, você tem que deixar a pasta desse pacote no mesmo diretório de seu projeto, seja ele WEB, DESKTOP, ANDROID...</br>
+Pronto, agora vá até o arquivo pubspec.yaml e adicione nas depências e rode o comanado flutter pub get.
 
-## Features
+## Exemplo
+<div>
+<code>fe_lab_clinicas_core:
+&nbsp&nbsp&nbsp  path: ../fe_lab_clinicas_core</code>
+</div>
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Lista de pacotes usado
+<div>
+  <ul>
+  <li>asyncstate: ^2.1.1-dev.1</li>
+  <li>dio: ^5.4.0</li>
+  <li>flutter_getit: ^2.0.0</li>
+  <li>loading_animation_widget: ^1.2.0+4</li>
+  <li>shared_preferences: ^2.2.2</li>
+  <li>signals_flutter: ^3.0.0</li>
+  <li>top_snackbar_flutter: ^3.1.0</li>
+</ul>
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+</div>
