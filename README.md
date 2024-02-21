@@ -25,4 +25,4 @@ Pronto, agora vá até o arquivo pubspec.yaml e adicione nas depências e rode o
   <li>top_snackbar_flutter: ^3.1.0</li>
 </ul>
 
-</div>
+</div> 
