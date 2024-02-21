@@ -12,6 +12,9 @@ export 'src/exceptions/service_exception.dart';
 export 'src/theme/lab_clinicas_theme.dart';
 export 'src/widgets/lab_clinicas_app_bar.dart';
 export 'src/widgets/icon_poup_menu_widget.dart';
+export 'src/restClient/rest_client.dart'
+    if (dart.library.html) 'src/restClient/rest_client_web.dart';
 
-export 'src/restClient/rest_client.dart';
-export 'src/restClient/rest_client_web.dart';
+
+// export 'src/restClient/rest_client.dart'
+//     if (dart.libary.html) 'src/restClient/rest_client_web.dart';

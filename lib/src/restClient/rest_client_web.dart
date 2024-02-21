@@ -2,8 +2,8 @@ import 'package:dio/browser.dart';
 import 'package:dio/dio.dart';
 import 'package:fe_lab_clinicas_core/src/restClient/intercpetors/auth_interceptor.dart';
 
-final class RestClientWeb extends DioForBrowser {
-  RestClientWeb(String baseURL)
+final class RestClient extends DioForBrowser {
+  RestClient(String baseURL)
       : super(BaseOptions(
           baseUrl: baseURL,
           connectTimeout: const Duration(seconds: 10),
@@ -15,12 +15,12 @@ final class RestClientWeb extends DioForBrowser {
     ]);
   }
 
-  RestClientWeb get auth {
+  RestClient get auth {
     options.extra['DIO_AUTH_KEY'] = true;
     return this;
   }
 
-  RestClientWeb get unatuh {
+  RestClient get unatuh {
     options.extra['DIO_AUTH_KEY'] = false;
     return this;
   }
